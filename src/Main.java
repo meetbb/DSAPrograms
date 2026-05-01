@@ -15,8 +15,16 @@ public class Main {
 //        {'.','.','.','.','8','.','.','7','9'}
 //        };
 //        System.out.println("Is the matrix valid: "+ solution.isValidSudoku(board));
-        int[] sequence = {0, 3, 7, 2, 5, 8, 4, 6, 0, 1};
-        LongestConsecutiveSubSequenceSolution solution = new LongestConsecutiveSubSequenceSolution();
-        System.out.println("Longest SubSequence value is: "+solution.longestSubSequence(sequence));
+//        int[] sequence = {0, 3, 7, 2, 5, 8, 4, 6, 0, 1};
+//        LongestConsecutiveSubSequenceSolution solution = new LongestConsecutiveSubSequenceSolution();
+//        System.out.println("Longest SubSequence value is: "+solution.longestSubSequence(sequence));
+//        int[] price = {13,5,1,8,21,2};
+//        int k = 3;
+//        MaximumTastinessSolution solution = new MaximumTastinessSolution();
+//        solution.maximumTastiness(price, k);
+        int[] height = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
+        TrappingRainWaterSolution solution = new TrappingRainWaterSolution();
+        int output = solution.trapWater(height);
+        System.out.println("Max water trapped is: "+ output);
     }
 }
